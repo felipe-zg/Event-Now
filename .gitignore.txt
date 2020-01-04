@@ -3,7 +3,7 @@
 # Edit at https://www.gitignore.io/?templates=firebase,reactnative,visualstudiocode
 
 ### api configs ###
-configs/*
+src/configs/*
 
 ### Firebase ###
 .idea
