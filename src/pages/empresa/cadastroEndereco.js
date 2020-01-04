@@ -6,6 +6,7 @@ import Geocoder from 'react-native-geocoding';
 import Lottie from 'lottie-react-native';
 import loadingAnimated from '../../animations/form_loading.json';
 import Toast from 'react-native-root-toast';
+import {GOOGLE_MAPS_APIKEY} from '../../../configs';
 
 export default class CadastroEndereco extends Component{
     constructor(){
@@ -50,7 +51,6 @@ export default class CadastroEndereco extends Component{
             return;
         }
         this.setState({isLoading: true});
-        const GOOGLE_MAPS_APIKEY = 'AIzaSyDMXuA3kgjioFdpiBeJNEoGp_B_p0WfYNs';
         const enderecoMaps = `${endereco.rua}, ${endereco.numero}, ${endereco.bairro} - ${endereco.cidade}, ${endereco.estado}`
         Geocoder.init(GOOGLE_MAPS_APIKEY); 
         Geocoder.from(enderecoMaps)
