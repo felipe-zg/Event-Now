@@ -159,7 +159,7 @@ export default function Cadastro({navigation}){
                         onSubmitEditing={realizaCadastro}
                     />
                     
-                    <Botao color="#612F74" onPress={()=>realizaCadastro()}>
+                    <Botao color="#612F74" marginTop="30px" onPress={()=>realizaCadastro()}>
                         <Texto color="#fff" size="12px">Cadastrar</Texto>
                     </Botao>
                 </KeyboardAwareScrollView>
