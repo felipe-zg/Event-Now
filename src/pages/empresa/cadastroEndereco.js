@@ -6,7 +6,7 @@ import Geocoder from 'react-native-geocoding';
 import Lottie from 'lottie-react-native';
 import loadingAnimated from '../../animations/form_loading.json';
 import Toast from 'react-native-root-toast';
-import {GOOGLE_MAPS_APIKEY} from '../../../configs';
+import {GOOGLE_MAPS_APIKEY} from '../../configs';
 
 export default class CadastroEndereco extends Component{
     constructor(){

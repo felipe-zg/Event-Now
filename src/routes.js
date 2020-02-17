@@ -8,7 +8,7 @@ import React from 'react';
 
 import TelaMain from './pages/main';
 import TelaLogin from './pages/login';
-import TelaCadastro from './pages/cadastro';
+import TelaCadastro from './pages/App/Cadastro';
 import TelaRecuperarSenha from './pages/recuperarSenha';
 
 import TabPerfil from './pages/empresa/dashboard/perfil';
@@ -40,7 +40,7 @@ import FontawesomeIcon from 'react-native-vector-icons/FontAwesome';
 import TelaEvento from './pages/evento';
 import TelaProcurarEventos from './pages/procurarEvento';
 import TelaPoliticaDePrivacidade from './pages/politica_de_privacidade';
-import TelaContato from './pages/contato';
+import TelaContato from './pages/App/Contato';
 import TelaEventosFavoritos from './pages/usuario/eventosFavoritos';
 
 const drawerPrincipalLogado = createDrawerNavigator({

@@ -9,7 +9,7 @@ import Toast from 'react-native-root-toast';
 import Lottie from 'lottie-react-native';
 import loadingAnimated from '../../animations/form_loading.json';
 
-import {GOOGLE_MAPS_APIKEY} from '../../../configs';
+import {GOOGLE_MAPS_APIKEY} from '../../configs';
 
 formTemCampoVazio = (endereco)=>{
     if(endereco.rua =='' || endereco.numero =='' || endereco.bairro =='' || endereco.cep =='' || endereco.cidade =='' || endereco.estado ==''){

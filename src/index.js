@@ -1,4 +1,5 @@
 import React from 'react';
+import {StatusBar} from 'react-native';
 import Routes from './routes';
 
 import {createStore} from 'redux';
@@ -10,6 +11,7 @@ const store = createStore(allReducers);
 
 const App = () => 
 <Provider store={store}>
+    <StatusBar barStyle="light-content" backgroundColor="#612F74" />
     <Routes />
 </Provider>
 

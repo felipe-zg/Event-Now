@@ -4,7 +4,7 @@ import {useSelector} from 'react-redux';
 import firebase from 'react-native-firebase';
 
 import Lottie from 'lottie-react-native';
-import loadingAnimated from '../animations/lf30_editor_IaoObY.json';
+import loadingAnimated from '../../../animations/lf30_editor_IaoObY.json';
 import Toast from 'react-native-root-toast';
 
 enviaEmail = async(assunto, mensagem, nome, email, sets, navigation)=>{
