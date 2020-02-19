@@ -32,7 +32,7 @@ export default function Cadastro({navigation}){
 
     function focusField(index) {
         inputs[index].focus();
-      }
+    }
 
     formularioPossuiCampoVazio = ()=>{
         if(nome == '' || sobrenome == '' || email == '' || senha == '' || confirmaSenha == '' )

@@ -1,13 +1,17 @@
+import React from 'react';
 import {createStackNavigator} from 'react-navigation-stack';
 import {createMaterialTopTabNavigator } from 'react-navigation-tabs';
 import {createMaterialBottomTabNavigator} from 'react-navigation-material-bottom-tabs';
 import {createDrawerNavigator} from 'react-navigation-drawer'
 import {Dimensions} from 'react-native'
 import {createAppContainer} from 'react-navigation';
-import React from 'react';
+import {View} from 'react-native';
+import FontawesomeIcon from 'react-native-vector-icons/FontAwesome';
+import Ionicons from 'react-native-vector-icons/Ionicons';
+import EntypoIcon from 'react-native-vector-icons/Entypo';
 
 import TelaMain from './pages/main';
-import TelaLogin from './pages/login';
+import TelaLogin from './pages/App/Login';
 import TelaCadastro from './pages/App/Cadastro';
 import TelaRecuperarSenha from './pages/recuperarSenha';
 
@@ -28,16 +32,12 @@ import TelaLoading from './pages/loading';
 import TelaFormAttEvento from './pages/empresa/formAttEvento';
 import TelaFormAttEndereco from './pages/empresa/formAttEndereco';
 
-import Ionicons from 'react-native-vector-icons/Ionicons';
-import EntypoIcon from 'react-native-vector-icons/Entypo';
-
 import Sidebar from './components/sideBar';
 import SidebarLogada from './components/sidebarLogada';
 
-import {View} from 'react-native';
-import FontawesomeIcon from 'react-native-vector-icons/FontAwesome';
 
-import TelaEvento from './pages/evento';
+
+import TelaEvento from './pages/App/Evento';
 import TelaProcurarEventos from './pages/procurarEvento';
 import TelaPoliticaDePrivacidade from './pages/politica_de_privacidade';
 import TelaContato from './pages/App/Contato';
