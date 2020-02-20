@@ -10,10 +10,10 @@ import FontawesomeIcon from 'react-native-vector-icons/FontAwesome';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import EntypoIcon from 'react-native-vector-icons/Entypo';
 
-import TelaMain from './pages/main';
+import TelaMain from './pages/App/Main';
 import TelaLogin from './pages/App/Login';
 import TelaCadastro from './pages/App/Cadastro';
-import TelaRecuperarSenha from './pages/recuperarSenha';
+import TelaRecuperarSenha from './pages/App/RecuperarSenha';
 
 import TabPerfil from './pages/empresa/dashboard/perfil';
 import TabEventos from './pages/empresa/dashboard/eventos';
