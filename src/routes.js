@@ -38,7 +38,7 @@ import SidebarLogada from './components/sidebarLogada';
 
 
 import TelaEvento from './pages/App/Evento';
-import TelaProcurarEventos from './pages/procurarEvento';
+import TelaProcurarEventos from './pages/App/ProcurarEventos';
 import TelaPoliticaDePrivacidade from './pages/politica_de_privacidade';
 import TelaContato from './pages/App/Contato';
 import TelaEventosFavoritos from './pages/usuario/eventosFavoritos';
