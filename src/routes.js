@@ -26,8 +26,8 @@ import TelaCadastroEndereco from './pages/empresa/cadastroEndereco';
 import TelaAttSenhaEmpresa from './pages/empresa/attSenha';
 import TelaAttEmailEmpresa from './pages/empresa/attEmail';
 
-import TelaDetalheEventoEmpresa from './pages/empresa/dashboard/detalheEvento';
-import TelaLoading from './pages/loading';
+import TelaDetalheEventoEmpresa from './pages/empresa/dashboard/DetalheEvento';
+import TelaLoading from './pages/App/Loading';
 
 import TelaFormAttEvento from './pages/empresa/formAttEvento';
 import TelaFormAttEndereco from './pages/empresa/formAttEndereco';
