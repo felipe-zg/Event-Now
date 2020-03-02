@@ -15,11 +15,11 @@ import TelaLogin from './pages/App/Login';
 import TelaCadastro from './pages/App/Cadastro';
 import TelaRecuperarSenha from './pages/App/RecuperarSenha';
 
-import TabPerfil from './pages/empresa/dashboard/perfil';
-import TabEventos from './pages/empresa/dashboard/eventos';
-import TabFormEventos from './pages/empresa/dashboard/formEvento';
-import TabEnderecos from './pages/empresa/dashboard/enderecos';
-import TabFormEnderecos from './pages/empresa/dashboard/formEndereco';
+import TabPerfil from './pages/empresa/dashboard/Perfil';
+import TabEventos from './pages/empresa/dashboard/Eventos';
+import TabFormEventos from './pages/empresa/dashboard/FormEvento';
+import TabEnderecos from './pages/empresa/dashboard/Enderecos';
+import TabFormEnderecos from './pages/empresa/dashboard/FormEndereco';
 
 import TelaCadastroEmpresa from './pages/empresa/cadastro';
 import TelaCadastroEndereco from './pages/empresa/cadastroEndereco';
