@@ -1,9 +1,5 @@
 import styled from 'styled-components/native';
 
-export const Container = styled.View`
-    flex: 1;
-`;
-
 export const Animacao = styled.View`
     flex: 1;
     align-items: center;
@@ -14,18 +10,18 @@ export const Input = styled.TextInput`
     padding-bottom: 0px;
     border-bottom-width: 1px;
     border-color: grey;
-    width: ${props => props.width};
-    margin-right: ${props => props.marginRight};
+    border-style: solid;
 `;
 
-export const ViewPicker = styled.View`
-    padding-bottom: 0px;
+export const ViewInputSenha = styled.View`
+    flex-direction: row;
     border-bottom-width: 1px;
     border-color: grey;
-    width: 26%;
+    justify-content: space-between;
+    margin-bottom: 10px;
 `;
 
-
-export const Row = styled.View`
-    flex-direction: row;
+export const InputSenha = styled.TextInput`
+    padding-bottom: 0px;
+    width: 85%;
 `;

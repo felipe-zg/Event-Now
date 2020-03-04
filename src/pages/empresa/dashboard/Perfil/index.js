@@ -36,7 +36,7 @@ export default function Perfil({navigation}){
     const enderecos = useSelector(state=>state.listaEnderecos.enderecos);
     const isLogged = useSelector(state => state.isLogged);
     const dispatch = useDispatch();
-    const [alertSenhaVisible, setAlertiSenhaVisible] = useState(false);
+    const [alertSenhaVisible, setAlertSenhaVisible] = useState(false);
 
     function restauraEstadosDaAplicacao(){
         dispatch(resetaEstadoDaListaDeEnderecos());
@@ -60,7 +60,7 @@ export default function Perfil({navigation}){
                 onPress: () => console.log("exclusão cancelada"),
                 style: 'cancel',
               },
-              {text: 'Excluir', onPress: () =>  setAlertiSenhaVisible(true)},
+              {text: 'Excluir', onPress: () =>  setAlertSenhaVisible(true)},
             ],
             {cancelable: false},
           );
@@ -138,9 +138,9 @@ export default function Perfil({navigation}){
                     hintInput ={"Digite sua senha"}
                     submitInput={ (senha) => {
                         deletaConta(senha);
-                        etAlertiSenhaVisible(false)}
+                        setAlertSenhaVisible(false)}
                     }
-                    closeDialog={ () => {setAlertiSenhaVisible(false)}}>
+                    closeDialog={ () => {setAlertSenhaVisible(false)}}>
                 </DialogInput>
             )}
             {!alertSenhaVisible && !isLogged &&(

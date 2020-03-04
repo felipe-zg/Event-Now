@@ -21,16 +21,16 @@ import TabFormEventos from './pages/empresa/dashboard/FormEvento';
 import TabEnderecos from './pages/empresa/dashboard/Enderecos';
 import TabFormEnderecos from './pages/empresa/dashboard/FormEndereco';
 
-import TelaCadastroEmpresa from './pages/empresa/cadastro';
-import TelaCadastroEndereco from './pages/empresa/cadastroEndereco';
-import TelaAttSenhaEmpresa from './pages/empresa/attSenha';
-import TelaAttEmailEmpresa from './pages/empresa/attEmail';
+import TelaCadastroEmpresa from './pages/empresa/Cadastro';
+import TelaCadastroEndereco from './pages/empresa/CadastroEndereco';
+import TelaAttSenhaEmpresa from './pages/empresa/AttSenha';
+import TelaAttEmailEmpresa from './pages/empresa/AttEmail';
 
 import TelaDetalheEventoEmpresa from './pages/empresa/dashboard/DetalheEvento';
 import TelaLoading from './pages/App/Loading';
 
-import TelaFormAttEvento from './pages/empresa/formAttEvento';
-import TelaFormAttEndereco from './pages/empresa/formAttEndereco';
+import TelaFormAttEvento from './pages/empresa/AttEvento';
+import TelaFormAttEndereco from './pages/empresa/AttEndereco';
 
 import Sidebar from './components/sideBar';
 import SidebarLogada from './components/sidebarLogada';
@@ -406,10 +406,8 @@ const Routes = createAppContainer(
                     backgroundColor:'#612F74',
                 },
             },
+            initialRouteName: "TelaLoading",
         },
-        {
-            initialRouteName: "TelaCadastroEmpresa",
-        }
     )
 );
 
