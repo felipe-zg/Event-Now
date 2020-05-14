@@ -1,43 +1,38 @@
 <h1 align="center">
-    <img alt="VitrineAmericanas" title="#Vitrine Americanas" src="src/assets/logo.jpg" width="200px" />
+    <img alt="VitrineAmericanas" title="#Vitrine Americanas" src="src/assets/logo.png" width="200px" />
 </h1>
 
 <h4 align="center">
-  🚀 Event Now
+   Event Now
 </h4>
 
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-qr-codes-para-teste">Problema e solução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout-e-funcionalidades">Layout e Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>
 </p>
 
 ## 💻 Projeto
 
-<!-- O Vitrine Americanas visa integrar a experiência das lojas físicas Americanas com o ecossistema digital B2W, a solução mais obvia, diante as pesquisa é a unificação comercial dos processos. Utilizando os espaços físicos como ambientes de transformação digital do consumidor.
-
-- [Download da Apresentação do Projeto](https://github.com/MegaHack-Shawee/VitrineAmericanas/files/4575853/Vitrine.Americanas-Time.34.pdf)
-
-- [Protótipo Navegável](https://xd.adobe.com/view/0b412d75-77d1-4469-4f0d-d15d613530f7-7d70/)
-
-Vídeo de apresentação do projeto:
-
-[![Video](https://img.youtube.com/vi/xXDZLFFsjAI/hqdefault.jpg)](https://www.youtube.com/watch?v=xXDZLFFsjAI) -->
+<h3>Problema</h3>
+As empresas da região dos lagos do RJ tinham um alto custo com divulgação de eventos através de outdoors e flyers que, além de custarem caro, acarretavam em disperdicio e poluição do meio ambiente
+<h3>Solução</h3>
+Foi desenvolvido um app mobile para android e ios que permite que as empresas divulguem seus eventos de maneira 100% digital, assim como permite que usuários busquem eventos de maneira fácil através de filtros.
+<h3>Resultado</h3>
+A estimativa é que o Event Now reduza em cerca de R$1000,00/mês o custo das empresas com divulgação dos eventos.
 
 ## 🔖 Layout e Funcionalidades
 
-- Leitura do QRCode de um produto (Loja virtual ou loja física)
-- Localizar Lojas Americanas próximas
-- Realizar compras em lojas físicas através do App
+- Cadastar eventos para divulgação
+- Buscar eventos através de filtros
+- Adicionar eventos a lista de favoritos
+- Exibir rotas do local atual do usuário até o endereço do evento
+- Receber lembrete do evento
+- Comprar ingressos para o evento
 
-<!-- <p align="center">
-    <img src="https://user-images.githubusercontent.com/44583521/81003652-913d4c80-8e21-11ea-9b31-bc702166b3ea.gif">
-</p>
-
-![Vitrine Americanas](https://user-images.githubusercontent.com/44583521/80930077-4f5fc800-8d87-11ea-9429-7769c4c60aa2.png) -->
-
-<img alt="VitrineAmericanas" title="#Vitrine Americanas" src="src/assets/banner.png" width="200px" />
+<h1 align="center">
+    <img alt="VitrineAmericanas" title="#Vitrine Americanas" src="src/assets/banner.png" width="600px" />
+</h1>
 
 ## 🚀 Tecnologias
 
