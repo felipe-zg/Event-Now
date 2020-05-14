@@ -21,6 +21,9 @@ Foi desenvolvido um app mobile para android e ios que permite que as empresas di
 <h3>Resultado</h3>
 A estimativa é que o Event Now reduza em cerca de R$1000,00/mês o custo das empresas com divulgação dos eventos.
 
+- [Download do app na play store](https://play.google.com/store/apps/details?id=com.event_now_v2)
+- [Linkedin](https://linkedin.com/in/felipe-zeba)
+
 ## 🔖 Layout e Funcionalidades
 
 - Cadastar eventos para divulgação
