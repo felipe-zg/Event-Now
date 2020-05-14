@@ -20,7 +20,7 @@ As empresas da região dos lagos do RJ tinham um alto custo com divulgação de 
 Foi desenvolvido um app mobile para android e ios que permite que as empresas divulguem seus eventos de maneira 100% digital, assim como permite que usuários busquem eventos de maneira fácil através de filtros.
 <h3>Resultado</h3>
 A estimativa é que o Event Now reduza em cerca de R$1000,00/mês o custo das empresas com divulgação dos eventos.
-
+</br>
 - [Download do app na play store](https://play.google.com/store/apps/details?id=com.event_now_v2)
 - [Linkedin](https://linkedin.com/in/felipe-zeba)
 
